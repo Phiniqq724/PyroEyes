@@ -3,7 +3,7 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClientSecureBearSSL.h>
 
-#define DHTPIN 14
+#define DHTPIN 15
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
